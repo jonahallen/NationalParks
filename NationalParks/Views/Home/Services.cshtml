@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Services";
+}
+
+<div>
+    <h2>Service Calculator</h2>
+    <p>
+        Want to learn more about our nations beautiful National Parks? Or need assistance planning your next adventure? Book a session today!
+    </p>
+    <br />
+
+    <form id="calculatorForm">
+
+        <label for="hours">Number of Hours:</label>
+        <input type="number" id="hours" min="0" required>
+        <br />
+        <br />
+
+        <label for="hourlyRate">Hourly Rate:</label>
+        <input type="text" id="hourlyRate" value="30" readonly>
+        <br />
+        <br />
+
+        <button type="button" id="calculateButton">Calculate Total</button>
+        <br />
+        <br />
+        <br />
+
+        <label for="total">Total:</label>
+        <input type="text" id="total" readonly>
+
+    </form>
+</div>
